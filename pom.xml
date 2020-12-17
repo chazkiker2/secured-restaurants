@@ -19,6 +19,10 @@
     </properties>
 
     <dependencies>
+        <!--        SPRING BOOT -->
+        <!--        SPRING BOOT -->
+        <!--        SPRING BOOT -->
+        <!--        SPRING BOOT -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -43,23 +47,30 @@
         </dependency>
 
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--        SPRING BOOT END -->
+        <!--        SPRING BOOT END -->
+        <!--        SPRING BOOT END -->
 
+
+        <!--        FAKER -->
+        <!--        FAKER -->
+        <!--        FAKER -->
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
         <dependency>
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>1.0.1</version>
         </dependency>
+        <!--        FAKER END -->
+        <!--        FAKER END -->
+        <!--        FAKER END -->
 
+        <!-- Swagger Dependencies Start -->
+        <!-- Swagger Dependencies Start -->
         <!-- Swagger Dependencies Start -->
         <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
         <dependency>
@@ -74,7 +85,9 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
-        <!-- Swagger Dependencies End -->
+        <!-- SWAGGER DEPS END -->
+        <!-- SWAGGER DEPS END -->
+        <!-- SWAGGER DEPS END -->
 
         <!-- https://mvnrepository.com/artifact/io.rest-assured/spring-mock-mvc -->
         <dependency>
@@ -84,7 +97,9 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Security Dependencies Start -->
+
+        <!-- SECURITY  -->
+        <!-- SECURITY  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -101,12 +116,25 @@
             <artifactId>spring-security-oauth2</artifactId>
             <version>2.3.6.RELEASE</version>
         </dependency>
-        <!-- Security Dependencies End -->
+        <!-- SECURITY END -->
+        <!-- SECURITY END -->
+
+
+
+        <!--        POSTGRESQL  -->
+        <!--        POSTGRESQL  -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+        </dependency>
+        <!--        POSTGRESQL  -->
+        <!--        POSTGRESQL  -->
+
     </dependencies>
 
     <build>
-        <finalName>secured-restaurants</finalName>
 
+        <finalName>secured-restaurants</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
